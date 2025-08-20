@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dash-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#15803d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <path d="M20,150 C100,50 150,250 230,150 S350,50 430,150" stroke="url(#dash-gradient)" 
+    stroke-width="6" fill="none" stroke-dasharray="5,5" />
+</svg>
